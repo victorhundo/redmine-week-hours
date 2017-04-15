@@ -10,6 +10,9 @@ RUN npm install
 
 COPY ./app/ /app
 
-VOLUME /app/scripts
+RUN apt-get update && apt-get install -y \
+mysql-client \
+&& rm -rf /var/lib/apt/lists/*
+
 EXPOSE 8080
 CMD ["npm", "start"]
