@@ -1,0 +1,18 @@
+{
+  "name": "redmine-hours-by-week",
+  "version": "0.0.0",
+  "description": "Retorna horas acumulada dos usuários durante a semana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "victor hugo - victorhundo@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "multer": "^1.2.0",
+    "shelljs": "^0.7.5"
+  }
+}
